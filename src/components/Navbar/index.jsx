@@ -6,9 +6,7 @@ const Navbar = () => {
     <NavbarLayout>
       <ul>
         <li>
-          <a href="https://andresyanquen.github.io/Front-React-App-Torre/">
-            Inicio
-          </a>
+          <a href="/">Inicio</a>
         </li>
         <li>
           <a href="https://torre.co" target="blank">
