@@ -21,14 +21,9 @@ function App() {
       <Context>
         <Layout>
           <Navbar></Navbar>
-          <Switch>
-            <Route path="/" exact>
-              <InitialScreen></InitialScreen>
-              <JobsList></JobsList>
-              <Candidates></Candidates>
-            </Route>
-            <Route path="/:username" component={UserDetail}></Route>
-          </Switch>
+          <InitialScreen></InitialScreen>
+          <JobsList></JobsList>
+          <Candidates></Candidates>
         </Layout>
       </Context>
     </Router>
